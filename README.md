@@ -1,7 +1,7 @@
 # LOVE-IMGUI
 
 [imgui](https://github.com/ocornut/imgui) module for the [LÖVE](https://love2d.org/) game engine including lua bindings based on this [project](https://github.com/patrickriordan/imgui_lua_bindings).
-**The main difference is that now by default in this version the return values ordering is reverted.** For instance to retrieve the value from a slider, you need to do:
+**The main difference is that now by default in this version the return values ordering is reverted.** For instance to retrieve the value from a slider, you need to do: 
 ```lua
 floatValue, status = imgui.SliderFloat("SliderFloat", floatValue, 0.0, 1.0);
 ```
